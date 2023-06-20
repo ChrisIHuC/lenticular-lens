@@ -1,8 +1,9 @@
 name: Example snyk workflow using Python
 on:
-  pull_request:
-    branches:
-      - main
+  push:
+ # pull_request:
+ #   branches:
+ #     - main
   workflow_dispatch:
 jobs:
   security:
