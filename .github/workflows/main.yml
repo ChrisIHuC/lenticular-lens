@@ -15,6 +15,10 @@ jobs:
         env:
           SNYK_TOKEN: ${{ secrets.SNYK_TOKEN }}
         with:
-          command: code test || true
+          command: code test
+          
+      - name: Continue on Snyk test failure
+        run: exit ${{ steps.snyk.outputs.exit_code }} || true
+        
           #args: --severity-threshold=high
 
