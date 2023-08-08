@@ -1,6 +1,6 @@
 # Lenticular Lens
 
-TESTESTESTEST
+TESTESTESTESTtest
 
 Lenticular Lens is a tool which allows users to construct linksets between entities from different Timbuctoo datasets (
 so called data-alignment or reconciliation). Lenticular Lens tracks the configuration and the algorithms used in the
