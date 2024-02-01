@@ -1,4 +1,4 @@
-FROM python:3.9-slim AS worker
+FROM python:3.13.0a3-slim AS worker
 
 ENV PYTHONPATH /app
 ENV PYTHONUNBUFFERED 1
